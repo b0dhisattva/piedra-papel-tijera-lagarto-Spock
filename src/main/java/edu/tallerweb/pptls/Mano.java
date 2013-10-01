@@ -6,7 +6,7 @@ package edu.tallerweb.pptls;
 public class Mano {
 
 	private Forma forma;
-	private Resultado matriz[][];
+	private Resultado[][] matriz;
 
 	public Mano(final Forma forma){
 
