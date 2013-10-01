@@ -3,7 +3,6 @@ package edu.tallerweb.pptls;
 /**
  * Representa una de las Manos involucradas en el juego
  */
-
 public class Mano {
 
 	private Forma forma;
