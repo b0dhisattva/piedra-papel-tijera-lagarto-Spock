@@ -14,12 +14,8 @@ public class Mano {
 	 * @param forma, la Forma que adopta la Mano.
 	 */
 
-	/** Almacena la forma de la mano actual */
 	private Forma forma;
-
-	/** Almacena la matriz con las reglas del
-	 * juego y sus posibles combinaciones 
-	 */
+	
 	private Resultado matriz[][];
 
 	public Mano(final Forma forma) {
