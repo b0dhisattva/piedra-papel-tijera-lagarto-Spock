@@ -8,8 +8,9 @@ package edu.tallerweb.pptls;
 public class Mano {
 
 	/**
-	 * Toda Mano debe crearse con una forma dada, que será
-	 * la que determine su condición en el juego.
+	 * Toda Mano debe crearse con una forma dada, 
+	 * que será la que determine su condición
+	 * en el juego.
 	 * @param forma, la Forma que adopta la Mano.
 	 */
 
@@ -30,7 +31,6 @@ public class Mano {
 				{ Resultado.PIERDE,	Resultado.GANA,		Resultado.GANA,		Resultado.EMPATA,	Resultado.PIERDE 	},
 				{ Resultado.PIERDE,	Resultado.PIERDE,	Resultado.GANA,		Resultado.GANA,		Resultado.EMPATA 	} };
 
-		/** throw new RuntimeException("No implementado aún"); */
 	}
 
 	/**
@@ -48,7 +48,6 @@ public class Mano {
 		 */
 		return this.matriz[this.forma.getValor()][otra.forma.getValor()];
 
-		/** throw new RuntimeException("No implementado aún"); */
 	}
 
 }
