@@ -38,10 +38,6 @@ public class Mano {
 
 	public Resultado jugarCon(final Mano otra) {
 
-		/** Retorna un valor de los posibles Resultados 
-		 * desde la matriz en base a las 
-		 * formas que se enfrentan en ambas manos
-		 */
 		return this.matriz[this.forma.getValor()][otra.forma.getValor()];
 
 	}
