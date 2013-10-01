@@ -8,9 +8,9 @@ public class Mano {
 
 	private Forma forma;
 	private Resultado matriz[][];
-	
-	public Mano(final Forma forma) {
-		
+
+	public Mano(final Forma forma){
+
 		this.forma = forma;
 
 		this.matriz = new Resultado[][] {
